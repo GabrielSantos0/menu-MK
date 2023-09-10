@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Mortal Kombat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Oxanium:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens mk/agr.png" alt="Logo Mortal Kombat">
+    </header>
+    <main class="selecao-de-personagens">
+        
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="scorpion" data-name="Scorpion"
+                    data-description="Scorpion, também conhecido como Hanzo Hasashi, luta empunhando duas kunai com correntes como sua arma principal sempre dizendo sua frase marcante, 'Get over here!'">
+                    <img src="./src/imagens mk/Scorpion.jpg" alt="Scorpion">
+                    <audio src="src/audio mk/audio-scorpion.mp3" id="audio-scorpion"></audio>
+                </li>
+                <li class="personagem" id="liu" data-name="Liu Kang"
+                    data-description="Liu Kang, o lendário monge shaolin, com sua destreza atlética e poderosos chutes de fogo, ele incendeia a arena e derrota seus oponentes com maestria.">
+                    <img src="./src/imagens mk/Liu-Kang.jpg" alt="Liu Kang">
+                    <audio src="./src/audio mk/audio-liu-kang.mp3" id="audio-liu-kang"></audio>
+                </li>
+                <li class="personagem" id="mileena" data-name="Mileena"
+                    data-description="Mileena, a enigmática guerreira híbrida de Tarkatan e Edenian, com sua ferocidade e suas garras mortais, ela dilacera seus oponentes sem piedade, deixando um rastro de sangue em seu caminho.">
+                    <img src="./src/imagens mk/Mileena.jpg" alt="Mileena">
+                    <audio src="./src/audio mk/audio-mileena.mp3" id="audio-mileena"></audio>
+                </li>
+                <li class="personagem" id="noob" data-name="Noob Saibot"
+                    data-description="Noob Saibot, o guerreiro das sombras, luta com suas habilidades sobrenaturais e movimentos rápidos, ele mergulha seus adversários na escuridão e os derrota impiedosamente.">
+                    <img src="./src/imagens mk/Noob saibot.jpg" alt="Noob Saibot">
+                    <audio src="./src/audio mk/audio-noob.mp3" id="audio-noob"></audio>
+                </li>
+                <li class="personagem" id="raiden" data-name="Raiden"
+                    data-description="Raiden, é o deus do trovão, com seus poderes elétricos e habilidades divinas, ele protege a Terra e usa sua força para derrotar seus inimigos com relâmpagos devastadores.">
+                    <img src="./src/imagens mk/Raiden.jpg" alt="Raiden">
+                    <audio src="./src/audio mk/audio-raiden.mp3" id="audio-raiden"></audio>
+                </li>
+                <li class="personagem" id="sub-zero" data-name="Sub Zero"
+                    data-description="Sub-Zero, é um ninja misterioso, com suas habilidades de controle de gelo, ele congela seus adversários e os derrota com uma frieza implacável.">
+                    <img src="./src/imagens mk/Sub-Zero.jpg" alt="Sub Zero">
+                    <audio src="./src/audio mk/audio-sub-zero.mp3" id="audio-sub"></audio>
+                </li>
+                <li class="personagem" id="cage" data-name="Johnny Cage"
+                    data-description="Johnny Cage, é um famoso ator de filmes de ação, com suas habilidades acrobáticas e golpes cinematográficos, ele combina estilo e força para deixar seus oponentes atordoados.">
+                    <img src="./src/imagens mk/cage.jpg" alt="Cage">
+                    <audio src="./src/audio mk/audio-cage.mp3" id="audio-cage"></audio>
+                </li>
+                <li class="personagem" id="kitana" data-name="Kitana"
+                    data-description="Kitana, a princesa guerreira de Edenia, com suas lâminas afiadas e habilidades ágeis, ela domina a luta com graciosidade letal, deixando seus adversários perplexos e derrotados.">
+                    <img src="./src/imagens mk/Kitana.jpg" alt="Kitana">
+                    <audio src="./src/audio mk/audio-kitana.mp3" id="audio-kitana"></audio>
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens mk/card-scorpion.png" alt="scorpion">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Scorpion</h2>
+                <p clas="descricao-personagem" id="descricao-personagem">Scorpion, também conhecido como Hanzo Hasashi,
+                    luta empunhando duas kunai com correntes como sua arma principal sempre dizendo sua frase marcante,
+                    "Get over here!"
+
+                </p>
+            </div>
+
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
